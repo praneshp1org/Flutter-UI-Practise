@@ -52,7 +52,7 @@ class _MyHomePageState extends State<MyHomePage> {
           Container(
             height: 200, 
             width: MediaQuery.of(context).size.width,
-            color: Colors.blue,
+            //color: Colors.blue,
             child: ListView(
               scrollDirection: Axis.horizontal,
               children: [
@@ -66,8 +66,9 @@ class _MyHomePageState extends State<MyHomePage> {
                 ),
                 Card(
                   child: Container(
+                    child: Image.network("https://imgs.search.brave.com/zDmV_RIlXiFcw5qsfmXW80Tze5WJXZYdq_VeZ_ClHek/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDE4MjE3/MzUuanBn", fit: BoxFit.cover,),
                     height: 120, 
-                    width: 200, 
+                    width: 150, 
                     color: Colors.pink,
                   ),
                 ),
