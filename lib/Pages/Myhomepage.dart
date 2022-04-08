@@ -48,72 +48,11 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       body: ListView(
         children: [
-        
-          Padding(
-            padding: const EdgeInsets.all(10.0),
-            child: Card(
-              elevation: 4,
-              child: Container(
-                height: 300,
-                width: MediaQuery.of(context).size.width,
-                child: Column(
-                  children: [
-                    Container(
-                      height: 200,
-                      width: MediaQuery.of(context).size.width,
-                      child: Image.network("https://th.bing.com/th/id/R.0469e93b0b0392bc4dd55181607e7323?rik=Y%2fsj%2fYY6E8wIqg&riu=http%3a%2f%2fwww.blizzstatic.com%2fdynamicmedia%2fimage%2f115%2f5838e223c5d7a.jpg%3fw%3d1200%26zc%3d1&ehk=qgLL1LURNvk%2bFt2JkzQ3QChv3N6QT%2fQ1SUJrWbr6jac%3d&risl=&pid=ImgRaw&r=0", fit: BoxFit.cover,),
-                    ),
-                    Container(
-                      height: 100,
-                      width: MediaQuery.of(context).size.width,
-                      //color: Colors.grey[200],
-                      child: ListTile(
-                        title: Text('BIG MAC', style: TextStyle(fontSize: 18.0, color: Color(0xff212121)),),
-                        subtitle: Column(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: [
-                            Text('Get BIG MAC @10% offer', style: TextStyle(fontSize: 14.0, color: Color(0xff757575)),),
-                            RaisedButton(onPressed: (){}, child: Text('BUY IT',), color: Color(0xffFF5722), textColor: Color(0xffFFFFFF),)
-                          ],
-                        ),
-                      ),
-                    ),
-                  ],
-                ),
-              ),
-            ),
-          ),
-          Padding(
-            padding: const EdgeInsets.all(10.0),
-            child: Center(
-              child: Wrap(
-                children: [
-                  Container(
-                    height: 100,
-                    width: 100,
-                    color: Colors.green,
-                  ),
-                  SizedBox(width: 10,),
-                   Container(
-                    height: 100,
-                    width: 100,
-                    color: Colors.green,
-                  ),
-                  SizedBox(width: 10,),
-                   Container(
-                    height: 100,
-                    width: 100,
-                    color: Colors.green,
-                  ),
-                  SizedBox(width: 10,),
-                 
-                  
-                  
-                  
-                  
-                ],
-              ),
-            ),
+          Image.network("https://imgs.search.brave.com/WXiBzfAV-6evojWY146pCSW7ZBDueHkpgN2Oa0LSPp8/rs:fit:1200:700:1/g:ce/aHR0cHM6Ly9zdGF0/aWMzLnNyY2RuLmNv/bS93b3JkcHJlc3Mv/d3AtY29udGVudC91/cGxvYWRzLzIwMjIv/MDQvU3RvbmUtQ29s/ZC1TdGV2ZS1BdXN0/aW4tU3R1bnMtS2V2/aW4tT3dlbnMtYXQt/V1dFLVdyZXN0bGVN/YW5pYS0zOC5qcGc"),
+          Container(
+            height: 200, 
+            width: MediaQuery.of(context).size.width,
+            color: Colors.blue,
           ),
         ],
       ),
