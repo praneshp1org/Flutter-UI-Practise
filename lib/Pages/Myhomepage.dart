@@ -49,6 +49,11 @@ class _MyHomePageState extends State<MyHomePage> {
       body: ListView(
         children: [
           Image.network("https://imgs.search.brave.com/WXiBzfAV-6evojWY146pCSW7ZBDueHkpgN2Oa0LSPp8/rs:fit:1200:700:1/g:ce/aHR0cHM6Ly9zdGF0/aWMzLnNyY2RuLmNv/bS93b3JkcHJlc3Mv/d3AtY29udGVudC91/cGxvYWRzLzIwMjIv/MDQvU3RvbmUtQ29s/ZC1TdGV2ZS1BdXN0/aW4tU3R1bnMtS2V2/aW4tT3dlbnMtYXQt/V1dFLVdyZXN0bGVN/YW5pYS0zOC5qcGc"),
+          ListTile(
+            title: Text("Today's special"),
+            subtitle: Text("Stunner by Stone Cold Steve Austin"),
+            trailing: Text("View All"),
+          ),
           Container(
             height: 200, 
             width: MediaQuery.of(context).size.width,
@@ -76,19 +81,49 @@ class _MyHomePageState extends State<MyHomePage> {
                   child: Container(
                     height: 120, 
                     width: 200, 
-                    color: Colors.grey,
+                    color: Colors.blue,
                   ),
                 ),
                 Card(
                   child: Container(
                     height: 120, 
                     width: 200, 
-                    color: Colors.black12,
+                    color: Colors.red,
                   ),
                 ),
                 
               ],
             ),
+          ),
+          SizedBox(height: 20,),
+          Row(
+
+            children: [
+              Expanded(
+                flex: 2,
+                child: Container(
+                  height: 100, 
+                  width: 100, 
+                  color: Colors.red,
+                ),
+              ),
+              SizedBox(width: 10,), 
+              Expanded(
+                child: Container(
+                  height: 100, 
+                  width: 100, 
+                  color: Colors.yellow,
+                ),
+              ),
+              SizedBox(width: 10,),
+              Expanded(
+                child: Container(
+                  height: 100, 
+                  width: 100, 
+                  color: Colors.blue,
+                ),
+              ),
+            ],
           ),
         ],
       ),
