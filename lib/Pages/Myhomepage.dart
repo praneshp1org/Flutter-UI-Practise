@@ -53,6 +53,41 @@ class _MyHomePageState extends State<MyHomePage> {
             height: 200, 
             width: MediaQuery.of(context).size.width,
             color: Colors.blue,
+            child: ListView(
+              scrollDirection: Axis.horizontal,
+              children: [
+                
+                Card(
+                  child: Container(
+                    height: 120, 
+                    width: 200, 
+                    color: Colors.yellow,
+                  ),
+                ),
+                Card(
+                  child: Container(
+                    height: 120, 
+                    width: 200, 
+                    color: Colors.pink,
+                  ),
+                ),
+                Card(
+                  child: Container(
+                    height: 120, 
+                    width: 200, 
+                    color: Colors.grey,
+                  ),
+                ),
+                Card(
+                  child: Container(
+                    height: 120, 
+                    width: 200, 
+                    color: Colors.black12,
+                  ),
+                ),
+                
+              ],
+            ),
           ),
         ],
       ),
