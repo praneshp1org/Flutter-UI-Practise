@@ -52,6 +52,8 @@ class _myPageState extends State<myPage> {
             trailing: Text("View all trips"),
           ),
           SizedBox(height: 10,),
+          Text("Some memorable trips: ", style: TextStyle(fontSize: 18),),
+          SizedBox(height: 18,),
           Container(
             height: 150,
             width: MediaQuery.of(context).size.width,
@@ -62,12 +64,14 @@ class _myPageState extends State<myPage> {
                   height: 100, 
                   width: 100, 
                   color: Colors.grey,
+                  child: Image.network("https://imgs.search.brave.com/J3YT0btbjgOBl9A2BUof2T9rDyX2NuZtj1iSjm7L8wA/rs:fit:736:552:1/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vNzM2/eC81ZS83Mi8zNy81/ZTcyMzc1ZGY3OTBl/NTdkYTY2YmYzYjc4/ZDkwODEwOC5qcGc", fit: BoxFit.cover,),
                 ),
                 SizedBox(width: 10,),
                 Container(
                   height: 100, 
                   width: 100, 
                   color: Colors.grey,
+                  
                 ),
                 SizedBox(width: 10,),
                 Container(
