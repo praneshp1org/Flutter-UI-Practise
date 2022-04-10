@@ -51,8 +51,12 @@ class _myPageState extends State<myPage> {
             ),
             trailing: Text("View all trips"),
           ),
+          SizedBox(height: 10,),
+          
         ],
+        
       ),
+      
     );
   }
 }
