@@ -52,7 +52,51 @@ class _myPageState extends State<myPage> {
             trailing: Text("View all trips"),
           ),
           SizedBox(height: 10,),
-          
+          Container(
+            height: 150,
+            width: MediaQuery.of(context).size.width,
+            child: ListView(
+              scrollDirection: Axis.horizontal,
+              children: [
+                Container(
+                  height: 100, 
+                  width: 100, 
+                  color: Colors.grey,
+                ),
+                SizedBox(width: 10,),
+                Container(
+                  height: 100, 
+                  width: 100, 
+                  color: Colors.grey,
+                ),
+                SizedBox(width: 10,),
+                Container(
+                  height: 100, 
+                  width: 100, 
+                  color: Colors.grey,
+                ),
+                SizedBox(width: 10,),
+                Container(
+                  height: 100, 
+                  width: 100, 
+                  color: Colors.grey,
+                ),
+                SizedBox(width: 10,),
+                Container(
+                  height: 100, 
+                  width: 100, 
+                  color: Colors.grey,
+                ),
+                SizedBox(width: 10,),
+                Container(
+                  height: 100, 
+                  width: 100, 
+                  color: Colors.grey,
+                ),
+                SizedBox(width: 10,),
+              ],
+            ),
+          ),
         ],
         
       ),
