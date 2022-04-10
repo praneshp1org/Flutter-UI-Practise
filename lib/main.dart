@@ -2,6 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:newapp/Pages/Myhomepage.dart';
+import 'package:newapp/Pages/newDesign.dart';
 
 void main()
 {
@@ -16,7 +17,7 @@ class myApp extends StatelessWidget {
       theme: ThemeData(primarySwatch: Colors.deepOrange,),
       title: 'Demo Project',
       debugShowCheckedModeBanner: false,
-      home: MyHomePage(),
+      home: MyDesign(),
     );
   }
 }
