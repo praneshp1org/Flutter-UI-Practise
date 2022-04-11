@@ -51,53 +51,100 @@ class _myPageState extends State<myPage> {
             ),
             trailing: Text("View all trips"),
           ),
-          SizedBox(height: 10,),
-          Text("Some memorable trips: ", style: TextStyle(fontSize: 18),),
-          SizedBox(height: 18,),
+          //SizedBox(height: 10,),
+          ListTile(
+            title: Text("Some memorable trips"),
+          ),
+          //Text("Some memorable trips: ", style: TextStyle(fontSize: 18),),
+          //SizedBox(height: 18,),
+          Padding(
+            padding: const EdgeInsets.all(10.0),
+            child: Container(
+              height: 150,
+              width: MediaQuery.of(context).size.width,
+              child: ListView(
+                scrollDirection: Axis.horizontal,
+                children: [
+                  Container(
+                    height: 100, 
+                    width: 100, 
+                    color: Colors.grey,
+                    child: Image.network("https://imgs.search.brave.com/J3YT0btbjgOBl9A2BUof2T9rDyX2NuZtj1iSjm7L8wA/rs:fit:736:552:1/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vNzM2/eC81ZS83Mi8zNy81/ZTcyMzc1ZGY3OTBl/NTdkYTY2YmYzYjc4/ZDkwODEwOC5qcGc", fit: BoxFit.cover,),
+                  ),
+                  SizedBox(width: 10,),
+                  Container(
+                    height: 100, 
+                    width: 100, 
+                    color: Colors.grey,
+                    
+                  ),
+                  SizedBox(width: 10,),
+                  Container(
+                    height: 100, 
+                    width: 100, 
+                    color: Colors.grey,
+                  ),
+                  SizedBox(width: 10,),
+                  Container(
+                    height: 100, 
+                    width: 100, 
+                    color: Colors.grey,
+                  ),
+                  SizedBox(width: 10,),
+                  Container(
+                    height: 100, 
+                    width: 100, 
+                    color: Colors.grey,
+                  ),
+                  SizedBox(width: 10,),
+                  Container(
+                    height: 100, 
+                    width: 100, 
+                    color: Colors.grey,
+                  ),
+                  SizedBox(width: 10,),
+                ],
+              ),
+            ),
+          ),
+          ListTile(
+            title: Text("Items purchased"),
+            subtitle: Text("Some of the items you purchased"),
+          ),
           Container(
-            height: 150,
+            height: 150, 
             width: MediaQuery.of(context).size.width,
             child: ListView(
               scrollDirection: Axis.horizontal,
               children: [
                 Container(
-                  height: 100, 
-                  width: 100, 
-                  color: Colors.grey,
-                  child: Image.network("https://imgs.search.brave.com/J3YT0btbjgOBl9A2BUof2T9rDyX2NuZtj1iSjm7L8wA/rs:fit:736:552:1/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vNzM2/eC81ZS83Mi8zNy81/ZTcyMzc1ZGY3OTBl/NTdkYTY2YmYzYjc4/ZDkwODEwOC5qcGc", fit: BoxFit.cover,),
+                  margin: EdgeInsets.only(left: 10),
+                  height: 150, 
+                  width: 150, 
+                  color: Colors.black,
+
                 ),
                 SizedBox(width: 10,),
                 Container(
-                  height: 100, 
-                  width: 100, 
-                  color: Colors.grey,
-                  
+                  height: 150, 
+                  width: 150, 
+                  color: Colors.black,
+
                 ),
                 SizedBox(width: 10,),
                 Container(
-                  height: 100, 
-                  width: 100, 
-                  color: Colors.grey,
+                  height: 150, 
+                  width: 150, 
+                  color: Colors.black,
+
                 ),
                 SizedBox(width: 10,),
                 Container(
-                  height: 100, 
-                  width: 100, 
-                  color: Colors.grey,
+                  height: 150, 
+                  width: 150, 
+                  color: Colors.black,
+
                 ),
-                SizedBox(width: 10,),
-                Container(
-                  height: 100, 
-                  width: 100, 
-                  color: Colors.grey,
-                ),
-                SizedBox(width: 10,),
-                Container(
-                  height: 100, 
-                  width: 100, 
-                  color: Colors.grey,
-                ),
-                SizedBox(width: 10,),
               ],
             ),
           ),
