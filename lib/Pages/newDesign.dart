@@ -11,8 +11,29 @@ class _MyDesignState extends State<MyDesign> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      drawer: Drawer(),
       appBar: AppBar(
-        title: Text('Stack'),
+        title: Text('StackOverflow'),
+        bottom: PreferredSize(child: Padding(
+          padding: const EdgeInsets.all(14.0),
+          child: Container(
+            decoration: BoxDecoration(
+              //color: Colors.white,
+            ),
+            height: 100, 
+            child: Padding(
+              padding: const EdgeInsets.all(20.0),
+              child: TextField(
+                decoration: InputDecoration(
+                  prefixIcon: Icon(Icons.search),
+                  //label: Text("Search something"),
+                  hintText: "Search",
+                  border: OutlineInputBorder(),
+                ),
+              ),
+            ),
+          ),
+        ), preferredSize: Size.fromHeight(100)),
         
       ),
       
