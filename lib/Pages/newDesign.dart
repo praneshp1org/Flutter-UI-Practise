@@ -67,10 +67,69 @@ class _MyDesignState extends State<MyDesign> {
         ListTile(
           title: Text("GridView Example"),
         ),
-        GridView.count(crossAxisCount: 3,
+        GridView.count(crossAxisCount: 2,
         shrinkWrap: true,
         physics: NeverScrollableScrollPhysics(),
         children: [
+          Card(
+            child: Center(
+              child: Column(
+                
+                children: [
+                  Image.network("https://imgs.search.brave.com/GY4krBEW57vpQ7G1jShfDKs-9U0MktrHYCXJgj5qkOY/rs:fit:1200:1200:1/g:ce/aHR0cDovL3BuZ2lt/YWdlc2ZyZWUuY29t/L0Jvb2svZnJlZS1C/b29rLXBuZy1jbGlw/YXJ0LnBuZw",), 
+                  Text("Curriculum"),
+                ],
+              ),
+            ),
+          ),
+
+          Card(
+            child: Center(
+              child: Text("Hello"),
+              
+            ),
+          ),
+
+          Card(
+            child: Center(
+              child: Text("Hello"),
+            ),
+          ),
+
+          Card(
+            child: Center(
+              child: Text("Hello"),
+              
+            ),
+          ),
+
+          Card(
+            child: Center(
+              child: Text("Hello"),
+              
+            ),
+          ),
+
+          Card(
+            child: Center(
+              child: Text("Hello"),
+            ),
+          ),
+
+          Card(
+            child: Center(
+              child: Text("Hello"),
+              
+            ),
+          ),
+
+          Card(
+            child: Center(
+              child: Text("Hello"),
+              
+            ),
+          ),
+
           Card(
             child: Center(
               child: Text("Hello"),
