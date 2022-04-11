@@ -98,49 +98,72 @@ class _MyDesignState extends State<MyDesign> {
 
           Card(
             child: Center(
-              child: Text("Hello"),
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children:[
+                  Image.asset("images/cpu.png", width: 50,),
+                  SizedBox(height: 10,), 
+                  Text("Electronics"),
+
+                ],
+              ),
+            ),
+          ),
+          Card(
+            child: Center(
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children:[
+                  Image.asset("images/cpu.png", width: 50,),
+                  SizedBox(height: 10,), 
+                  Text("Electronics"),
+
+                ],
+              ),
+            ),
+          ),
+          Card(
+            child: Center(
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Image.network("https://imgs.search.brave.com/GY4krBEW57vpQ7G1jShfDKs-9U0MktrHYCXJgj5qkOY/rs:fit:1200:1200:1/g:ce/aHR0cDovL3BuZ2lt/YWdlc2ZyZWUuY29t/L0Jvb2svZnJlZS1C/b29rLXBuZy1jbGlw/YXJ0LnBuZw",width: 50,), 
+                  Text("SYLLABUS"),
+                ],
+              ),
             ),
           ),
 
           Card(
             child: Center(
-              child: Text("Hello"),
-              
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Image.asset('images/man.png', width: 50,),
+                  SizedBox(height: 5,),
+                  Text("USER"),
+                ],
+              ),
             ),
           ),
 
           Card(
             child: Center(
-              child: Text("Hello"),
-              
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children:[
+                  Image.asset("images/cpu.png", width: 50,),
+                  SizedBox(height: 10,), 
+                  Text("Electronics"),
+
+                ],
+              ),
             ),
           ),
 
-          Card(
-            child: Center(
-              child: Text("Hello"),
-            ),
-          ),
+          
 
-          Card(
-            child: Center(
-              child: Text("Hello"),
-              
-            ),
-          ),
-
-          Card(
-            child: Center(
-              child: Text("Hello"),
-              
-            ),
-          ),
-
-          Card(
-            child: Center(
-              child: Text("Hello"),
-            ),
-          ),
+          
         ],
         ),
         ],
